@@ -5,7 +5,7 @@ bool wordPattern(string pattern, string s)
     map<char,string>mp_1;
     map<string,char>mp_2;
 
-    stringstream ss(s);
+    stringstream ss(s);// for extracting word from sentence
     string word;
     int i=0;
     while (ss >> word)
