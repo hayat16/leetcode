@@ -1,3 +1,4 @@
+//without using sorting
 #include<bits/stdc++.h>
 using namespace std;
 string generate(string s)
